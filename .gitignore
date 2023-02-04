@@ -1,0 +1,43 @@
+ python
+.ipynb_checkpoints
+__pycache__
+
+# python dev
+*.egg-info
+
+# IDEs
+.idea
+.vscode
+
+# mac
+.DS_Store
+
+#local app run
+stemly/jwks.json
+stemly/sqlite
+stemly/instance
+
+# virtual environment
+env
+
+# bats/hoot testing
+.hoot.*
+
+# version json
+version_info.json
+
+# catboost temp data
+catboost_info
+nohup.out
+loc.txt
+
+# env files
+.env*
+
+# security reports
+# trivy
+trivy_fs.log
+trivy_conf.log
+
+# bandit
+bandit_log.csv
